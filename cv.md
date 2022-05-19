@@ -1,5 +1,5 @@
 -----------------
-# GALINA MAGAZINOVA
+# Galina Magazinova
 
 *********
 
@@ -22,11 +22,11 @@
 *********
 
 ### About me:
-Hi, I’m Galina, and now I’m working as a system administrator, Oracle database administrator and information security specialist in a government organization. Due to personal preferences, I decided to change the course of my education to the direction of frontend development. My goal is to become a professional frontend developer.
+Hi, I’m Galina, and now I’m working as a technical specialist, supporting the software and hardware complex of the  automated information system in a government organization. Due to personal preferences, I decided to change the course of my education to the direction of frontend development. My goal is to become a professional frontend developer.
 
 *********
 
-### Skills and Proficiency in web technologies:
+### Skills and Proficiency:
 
 * HTML5/CSS3
 
@@ -42,17 +42,6 @@ Hi, I’m Galina, and now I’m working as a system administrator, Oracle databa
 
 *********
 
-### Other technologies:
-* Ensuring information security (SecretNet, Континент, КриптоПро)
-
-* Network equipment (routers, network hubs, network switches, VPN nodes), printing systems (printers, faxes, copiers), power supplies (power supplies, UPS, batteries), storage media;
-
-* Principles of operation of network protocols, building computer networks;
-
-* Local networks (protocols, network equipment, networking principles).
-
-*********
-
 ### Education:
 * **Pomor State University**
    * Physics and computer science teacher
@@ -62,9 +51,9 @@ Hi, I’m Galina, and now I’m working as a system administrator, Oracle databa
 
 * **Нетология**
     * [Основы верстки сайта](https://netology.ru/sharing/ff06f1bf3ff22f5b06f7c3ddc1351291)
-    
 
-    *********
+    **********
+
 
 ### Languages:
 
