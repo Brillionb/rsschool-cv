@@ -10,22 +10,39 @@ html {
 
 body {
   font-family: "Cantarell", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #c58785;
   min-height: 100vh;
+  background-color: #fcfafa;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
 /*-------- HEADER --------*/
 .header {
-  border: 1px solid red;
+  height: 40px;
 }
 
 .menu-list {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   list-style-type: none;
+  text-transform: uppercase;
 }
 
 .menu-link {
@@ -33,42 +50,76 @@ body {
   line-height: 50px;
   text-decoration: none;
   font-size: 20px;
-  transition: 0.3s;
+  transition: 0.5s;
+  color: #c58785;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #492121, 0 0 1em #c58785;
 }
 
 .menu-list a:hover {
-    color: aqua;
+  color: #492121;
 }
 
 /*-------- MAIN --------*/
 
 .main {
-  border: 1px solid rgb(59, 41, 176);
   display: flex;
-  justify-content: space-around;
-}
-.left-side-bar {
-  border: 1px solid rgb(217, 215, 70);
-  min-width: 700px;
-  height: 700px;
-}
-.right-side-bar {
-  border: 1px solid rgb(201, 88, 156);
-  min-width: 700px;
-  height: 700px;
+  justify-content: center;
 }
 
-/*-------- FOOTER --------*/
-.footer {
-  border: 1px solid rgb(40, 155, 24);
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+
+.section-title {
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px #492121, 0 0 1em #c58785;
+    padding-bottom: 10px;
+    
+
 }
 
 .name {
-  font-family: "Kaushan Script", cursive;
-  font-size: 50px;
+  font-size: 30px;
+  color: #492121;
 }
 
 .photo {
-  border-radius: 50%;
+  border-radius: 100%;
   width: 300px;
+  height: 300px;
+  object-fit: cover;
+  box-shadow: 0 0 20px #c58785;
+}
+
+.list-span {
+  color: #492121;
+  font-weight: bold;
+  list-style-position: inside;
+}
+
+.list-link {
+  text-decoration: none;
+  transition: color 0.5s;
+  color: #c58785;
+}
+.list-link:hover {
+    color: #492121;
+}
+
+
+
+/*-------- FOOTER --------*/
+.footer {
+    background-color: #c58785;
+
 }
