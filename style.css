@@ -1,0 +1,144 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Cantarell", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #c58785;
+  min-height: 100vh;
+  background-color: #fcfafa;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+/*-------- HEADER --------*/
+.header {
+  height: 50px;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.menu-link {
+  padding: 0 25px;
+  line-height: 50px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.5s;
+  color: #c58785;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #492121, 0 0 1em #c58785;
+}
+
+.menu-list a:hover {
+  color: #492121;
+}
+
+/*-------- MAIN --------*/
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+
+.section-title {
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px #492121, 0 0 1em #c58785;
+    padding-bottom: 10px;
+    
+
+}
+
+.name {
+  font-size: 30px;
+  color: #492121;
+}
+
+.photo {
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  box-shadow: 0 0 20px #c58785;
+}
+
+.list-span {
+  color: #492121;
+  font-weight: bold;
+  list-style-position: inside;
+}
+
+.list-link {
+  text-decoration: none;
+  transition: color 0.5s;
+  color: #c58785;
+}
+.list-link:hover {
+    color: #492121;
+}
+
+
+
+/*-------- FOOTER --------*/
+.footer {
+    background-color: #c58785;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    height: 60px;
+    color: #492121;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.footer-container {
+    width: 121px;
+    height: 45px;
+} 
+
+.github-logo {
+    width: 121px;
+    height: 45px;
+}
+
