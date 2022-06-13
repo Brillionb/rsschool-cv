@@ -34,7 +34,7 @@ body {
 
 /*-------- HEADER --------*/
 .header {
-  height: 40px;
+  height: 50px;
 }
 
 .menu-list {
@@ -121,5 +121,24 @@ body {
 /*-------- FOOTER --------*/
 .footer {
     background-color: #c58785;
-
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    height: 60px;
+    color: #492121;
+    font-weight: bold;
+    font-size: 20px;
+    
 }
+
+.footer-container {
+    width: 121px;
+    height: 45px;
+} 
+
+.github-logo {
+    width: 121px;
+    height: 45px;
+}
+
