@@ -48,6 +48,7 @@ Hi, I’m Galina, and now I’m working as a technical specialist, supporting th
 
 * **RSSchool**
     * [JavaScript/Front-end. Stage 0 (in progress)](https://rs.school/js-stage0/)
+    * [JavaScript/Front-end. Stage 1 (in progress)](https://rs.school/js/)
 
 * **Нетология**
     * [Основы верстки сайта](https://netology.ru/sharing/ff06f1bf3ff22f5b06f7c3ddc1351291)
